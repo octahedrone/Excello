@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordSources", "RecordSources\RecordSources.csproj", "{1F82ECEE-36EE-4257-AE73-12F91ADBB088}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OleDbRecordSources", "OleDbRecordSources\OleDbRecordSources.csproj", "{C6E5E0C0-FE1E-460A-9CA4-C436AB2AEE2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Definitions", "Definitions", "{24687E31-C054-4A88-927C-CCD3AC475696}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordWriters", "RecordWriters\RecordWriters.csproj", "{69528841-1946-45B3-914D-FE798B5E5E33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OleDb", "OleDb", "{84FC948D-2BA2-4B23-8739-1522C5B3A097}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OleDbRecordWriters", "OleDbRecordWriters\OleDbRecordWriters.csproj", "{6D30D95E-D8C2-4ED6-8DA7-A161AAAC4499}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistedDefinitions", "PersistedDefinitions\PersistedDefinitions.csproj", "{ADFD37C8-03B4-4635-B73E-27E90C247482}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistedDefinitions.Tests", "PersistedDefinitions.Tests\PersistedDefinitions.Tests.csproj", "{338A41F4-F54C-43A8-BEDC-729FF91C2610}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F82ECEE-36EE-4257-AE73-12F91ADBB088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F82ECEE-36EE-4257-AE73-12F91ADBB088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F82ECEE-36EE-4257-AE73-12F91ADBB088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F82ECEE-36EE-4257-AE73-12F91ADBB088}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6E5E0C0-FE1E-460A-9CA4-C436AB2AEE2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6E5E0C0-FE1E-460A-9CA4-C436AB2AEE2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6E5E0C0-FE1E-460A-9CA4-C436AB2AEE2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6E5E0C0-FE1E-460A-9CA4-C436AB2AEE2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69528841-1946-45B3-914D-FE798B5E5E33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69528841-1946-45B3-914D-FE798B5E5E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69528841-1946-45B3-914D-FE798B5E5E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69528841-1946-45B3-914D-FE798B5E5E33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D30D95E-D8C2-4ED6-8DA7-A161AAAC4499}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D30D95E-D8C2-4ED6-8DA7-A161AAAC4499}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D30D95E-D8C2-4ED6-8DA7-A161AAAC4499}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D30D95E-D8C2-4ED6-8DA7-A161AAAC4499}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADFD37C8-03B4-4635-B73E-27E90C247482}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADFD37C8-03B4-4635-B73E-27E90C247482}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADFD37C8-03B4-4635-B73E-27E90C247482}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADFD37C8-03B4-4635-B73E-27E90C247482}.Release|Any CPU.Build.0 = Release|Any CPU
+		{338A41F4-F54C-43A8-BEDC-729FF91C2610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{338A41F4-F54C-43A8-BEDC-729FF91C2610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{338A41F4-F54C-43A8-BEDC-729FF91C2610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{338A41F4-F54C-43A8-BEDC-729FF91C2610}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C6E5E0C0-FE1E-460A-9CA4-C436AB2AEE2E} = {84FC948D-2BA2-4B23-8739-1522C5B3A097}
+		{6D30D95E-D8C2-4ED6-8DA7-A161AAAC4499} = {84FC948D-2BA2-4B23-8739-1522C5B3A097}
+		{ADFD37C8-03B4-4635-B73E-27E90C247482} = {24687E31-C054-4A88-927C-CCD3AC475696}
+		{338A41F4-F54C-43A8-BEDC-729FF91C2610} = {24687E31-C054-4A88-927C-CCD3AC475696}
+	EndGlobalSection
+EndGlobal

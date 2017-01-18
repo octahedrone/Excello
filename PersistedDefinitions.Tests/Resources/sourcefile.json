@@ -1,0 +1,20 @@
+﻿{
+    "range": "Sheet1$A3:X100",
+    "columns": [
+        {
+            "ordinal": 1,
+            "name": "Secname",
+            "parse-as": "string"
+        },
+        {
+            "ordinal": 2,
+            "name": "Name",
+            "parse-as": "string"
+        },
+        {
+            "ordinal": 5,
+            "name": "Passport",
+            "parse-as": "string"
+        }
+    ]
+}
