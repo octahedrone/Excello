@@ -1,0 +1,21 @@
+﻿{
+    "row-format": "Correct$A{0}:X{0}",
+    "offset" : 2,
+    "columns": [
+        {
+            "ordinal": 1,
+            "name": "Secname",
+            "format-with": "{0}"
+        },
+        {
+            "ordinal": 2,
+            "name": "Name",
+            "format-with": "{0}"
+        },
+        {
+            "ordinal": 5,
+            "name": "Passport",
+            "format-with": "{0}"
+        }
+    ]
+}
